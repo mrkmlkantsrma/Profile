@@ -1,0 +1,43 @@
+{
+  "name": "devloper-profile",
+  "version": "1.0.0",
+  "homepage": "https://mrkmlkantsrma.github.io/Profile",
+  "description": "Kamal Kant Sharma Portfolio",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@deckdeckgo/youtube": "2.1.0",
+    "@fortawesome/fontawesome-svg-core": "^1.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.0.0",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "@makotot/ghostui": "2.0.0",
+    "emailjs-com": "3.2.0",
+    "framer-motion": "^6.2.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "5.0.0",
+    "react-tabs": "4.0.1",
+    "simple-react-modal": "0.5.1",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "gh-pages": "^4.0.0",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
