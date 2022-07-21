@@ -7,7 +7,7 @@ import {
 } from "framer-motion";
 import token from "./designToken";
 import dots from "../../assets/vertical_dots.svg";
-import close from "../../assets/close.svg";
+import close from "../../assets/close.png";
 import comingSoon from "../../assets/coming_soon.svg";
 import Modal from "./Modal";
 import Form from "./Form";
@@ -78,7 +78,7 @@ const Hero = () => {
         </div> */}
         <div id="rightHero">
           
-          <div className="floating-React langfloat">
+          {/* <div className="floating-React langfloat">
             <a href="#about">
               <Reacti />
             </a>
@@ -97,7 +97,7 @@ const Hero = () => {
             <a href="#about">
               <Codeigniter />
             </a>
-          </div>
+          </div> */}
           <Challenge>
             <AnimateSharedLayout type="crossfade">
               <motion.div
@@ -315,8 +315,8 @@ const Story = styled(motion.div)`
     position: relative;
   }
   video {
-    width: 30vw;
-    height: 70vh;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     @media screen and (min-width: 640px) {
       max-width: 320px;
@@ -350,14 +350,15 @@ const Story = styled(motion.div)`
     border-radius: 24px;
     img {
       width: 24px;
+      height: 24px;
     }
   }
 `;
 
 const PlayButton = styled(motion.div)`
 position: absolute;
-  left: 75%;
-  top: 50%;
+  left: 100%;
+  top:  0%;
    transform: translate(-50%, -50%);
   width: 88px;
   height: 88px;
@@ -365,12 +366,12 @@ position: absolute;
   .play-button-content {
     width: 80px;
     height: 75px;
-    background: linear-gradient(#fff, #0c2235);
+    // background: linear-gradient(#fff, #0c2235);
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 2px 32px rgba(0, 0, 0, 0.2);
+    // box-shadow: 2px 2px 32px rgba(0, 0, 0, 0.2);
     &::after {
       content: "";
       background: #ffffff00;
@@ -386,7 +387,7 @@ position: absolute;
       z-index: 1;
       position: relative;
       right: -2px;
-      width: 50px;
+      width: 60px;
     }
   }
 `;

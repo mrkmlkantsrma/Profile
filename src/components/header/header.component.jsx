@@ -1,6 +1,8 @@
 import React, { useState, useRef } from "react";
 import { Scrollspy } from "@makotot/ghostui";
 import { ReactComponent as Logo } from "../../assets/logobyname.svg";
+import close from "../../assets/close.png";
+import menubar from "../../assets/menu-bar.png";
 
 const Header = (props) => {
   const [navbar, setNavbar] = useState(false);
@@ -11,6 +13,11 @@ const Header = (props) => {
     } else {
       setNavbar(false);
     }
+  };
+
+  const [openMenu, setOpenMenu] = useState(false);
+  const toggleMenu = () => {
+    setOpenMenu(!openMenu);
   };
 
   window.addEventListener("scroll", changeBackground);
@@ -67,12 +74,15 @@ const Header = (props) => {
                 </ul>
               </div>
               <div className="mobileHeader">
-                <div>
+                <div className="innerHeader">
                   <a href="/" className="logo">
-                    <span>Maverick</span>
                     <Logo className="headerLogo" />
                   </a>
-                </div>
+                  <button className="menubar" onClick={toggleMenu}><img src={menubar} alt="close" /></button>
+                  </div>
+                  {openMenu ? (
+                    <div>
+                <div>
                 <ul className="mobileMenu">
                   <li
                     className={
@@ -111,6 +121,9 @@ const Header = (props) => {
                     <a href="#contact">Contact</a>
                   </li>
                 </ul>
+                  </div>
+                </div>
+                  ) : null}
               </div>
             </div>
             <div ref={sectionRefs[2]}>{props.children}</div>

@@ -44,8 +44,8 @@ b {
   right: 20px;
   bottom: 20px;
   background-color: #0b1e2e;
-  width: 2rem;
-  height: 2rem;
+  width: 1rem;
+  height: 1rem;
   z-index: 99;
   display: flex;
   align-items: center;
@@ -53,9 +53,9 @@ b {
   border-radius: 4px;
   cursor: pointer;
   transition: all 1s cubic-bezier(0, 0, 0.1, 1);
-  border-radius: 1rem;
+  border-radius: 2rem;
   border: 1px solid #87929b;
-  padding: 1rem;
+  padding: 10px;
 }
 
 .scroll_up:hover {
@@ -142,12 +142,8 @@ b {
   justify-content: center;
   width: 90vw;
   margin: auto;
-  padding-top: 1rem;
 }
 
-.mobileHeader > div {
-  text-align: center;
-}
 
 .mobileMenu {
   list-style: none;
@@ -652,7 +648,9 @@ form button:focus {
   text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 992px) {
   .scroll_up {
     right: calc(100% - 5rem);
     bottom: 3rem;
@@ -663,6 +661,33 @@ form button:focus {
   .mobileHeader {
     display: flex;
   }
+  #header {
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    width: 100vw;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+  .menubar {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  .innerHeader {
+    display: flex;
+    align-items: center;
+  }
+  .menubar img {
+    width: 40px;
+  }
+  #hero #rightHero{
+    display: none;
+  }
+
   .gridlayout3 > div:nth-child(1) {
     order: 2;
   }
@@ -674,6 +699,15 @@ form button:focus {
   }
   .heroEmail {
     display: none;
+  }
+  #hero #LeftHero{
+    width: 100%;
+  }
+  #hero .rowC {
+    flex-direction: column;
+  }
+  #hero {
+    margin-top: 0px;
   }
   .react-tabs__tab-list {
     flex-direction: column;
@@ -692,8 +726,44 @@ form button:focus {
   .gridlayout2 > a {
     width: 90vw;
   }
+
+  .desktopFooter > div {
+    text-align: center;
+  }
+  .desktopFooter {
+    display: block;
+    width: 100%;
+    max-width: 1232px;
+    margin: 0 0 30px 0;
+    padding: 0;
+  }
+  .desktopFooter .desktopMenu {
+    display: none;
+  }
+  hr {
+    margin: 2rem auto 0;
+  }
+  #about {
+    grid-gap: 0rem;
+  }
+  #about ,#contact{
+    padding-top: 1rem;
+  }
+  #contact .whatsapp-container{
+    padding: 0;
+    margin: 0;
+  }
+  #contact .social-container{
+    padding: 0;
+  }
+  #contact .gridlayout1{
+    margin-bottom: 0;
+  }
+  #contact .gridlayout1.start {
+    grid-gap: 0rem;
 }
-@media screen and (min-width: 600px) {
+}
+@media screen and (min-width: 992px) {
   .desktopHeader {
     display: flex;
   }
@@ -1338,7 +1408,7 @@ form button:focus {
 } */
 
 svg {
-  max-height: 95vh;
+  /* max-height: 95vh; */
 }
 
 #stars_1_ rect {
@@ -1940,7 +2010,7 @@ a#youtube:hover img {
 
 .whatsapp-container{    
   padding: 25px 10px;
-  margin: 21px  0px 0px 70px;
+  margin: 20px  0px 0px 20px;
 }
 
 a#whatsapp:hover span {

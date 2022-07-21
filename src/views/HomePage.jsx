@@ -17,7 +17,6 @@ const HomePage = () => {
       <Header> 
        <Logo id="homelogo" fill="#162A3B" />    
        <Hero />
-       <div className="Upperleher Upperleher2"></div>
         <hr />
         <About />
         <div
