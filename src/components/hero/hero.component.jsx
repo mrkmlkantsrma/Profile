@@ -77,8 +77,8 @@ const Hero = () => {
           </div>
         </div> */}
         <div id="rightHero">
-          
-          {/* <div className="floating-React langfloat">
+       
+          <div className="floating-React langfloat">
             <a href="#about">
               <Reacti />
             </a>
@@ -97,7 +97,7 @@ const Hero = () => {
             <a href="#about">
               <Codeigniter />
             </a>
-          </div> */}
+          </div>
           <Challenge>
             <AnimateSharedLayout type="crossfade">
               <motion.div
