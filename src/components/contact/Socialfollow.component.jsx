@@ -10,7 +10,7 @@ import {
 
 const SocialFollow = () => {
   return (
-    <div class="social-container">
+    <div className="social-container">
       <a id="youtube" href="#" className="social">
         <FontAwesomeIcon icon={faYoutube} size="2x" />
         <img id="arrow-hover" src="https://github.com/atloomer/atloomer.github.io/blob/master/img/iconmonstr-paper-plane-1-120.png?raw=true"/>

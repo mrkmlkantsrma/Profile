@@ -22,7 +22,7 @@ const About = () => {
       <div>
         <h2>About</h2>
         <p>
-          Hello! My name is  <img src={NameImage} alt="Skytsunami" /> and I am a self taught Web developer.
+          Hello! My name is KamalKant and I am a self taught Web developer.
         </p>
         <p>
           The scope of my work is mostly includes Ecommerce, Content Based websites.

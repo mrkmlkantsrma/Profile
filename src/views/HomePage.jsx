@@ -25,9 +25,9 @@ const HomePage = () => {
             backgroundRepeat: "repeat-y"
           }}
         >
-          <hr />
+          <hr className="aboutHr"/>
           <Projects />
-          <hr />
+          <hr className="aboutHr"/>
           {/* <Testimonial /> */}
           <Contact />
         </div>
