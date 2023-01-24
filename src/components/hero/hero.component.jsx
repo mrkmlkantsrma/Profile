@@ -45,7 +45,7 @@ const Hero = () => {
         
         <div id="LeftHero">
           <div className="Herotitle">
-            <h2><img src={HiImage} alt="Hiname" /><img src={NameImage} alt="Skytsunami" /><span class="wave">👋</span> </h2>         
+            <h2><img src={HiImage} alt="Hiname" /><img src={NameImage} alt="Skytsunami" /><span className="wave">👋</span> </h2>         
             <h1>&lt; Web Developer /&gt;</h1>
             <p>
             I build things for the web. I am seeking React, PHP, Javascript, and other
@@ -56,11 +56,11 @@ const Hero = () => {
              I like to learn new things, solve problems, and create innovative
               web solutions.
             </p>
-            <div class="button" id="button-5">
+            <div className="button" id="button-5">
               <div id="translate"></div>
                 <a href="#contact">Contact Me👋</a>
             </div>
-            <div class="button" id="button-5">
+            <div className="button" id="button-5">
               <div id="translate"></div>
                 <a href="#">Check Resume</a>
             </div>
@@ -78,7 +78,7 @@ const Hero = () => {
         </div> */}
         <div id="rightHero">
        
-          <div className="floating-React langfloat">
+          {/* <div className="floating-React langfloat">
             <a href="#about">
               <Reacti />
             </a>
@@ -97,8 +97,8 @@ const Hero = () => {
             <a href="#about">
               <Codeigniter />
             </a>
-          </div>
-          <Challenge>
+          </div> */}
+          {/* <Challenge>
             <AnimateSharedLayout type="crossfade">
               <motion.div
                 onClick={toggleStoryHandler}
@@ -158,10 +158,10 @@ const Hero = () => {
                 )}
               </AnimatePresence>
             </AnimateSharedLayout>
-          </Challenge>
+          </Challenge> */}
 
           {/* <BottomNav toggleModalHandler={toggleModalHandler} /> */}
-          <Modal
+          {/* <Modal
             showModal={showModal}
             toggleModalHandler={toggleModalHandler}
           >
@@ -171,7 +171,7 @@ const Hero = () => {
                 showModal={showModal}
               />
             </div>
-          </Modal>
+          </Modal> */}
    
         </div>
       </div>

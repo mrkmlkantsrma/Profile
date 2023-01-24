@@ -3,6 +3,9 @@ import { Scrollspy } from "@makotot/ghostui";
 import { ReactComponent as Logo } from "../../assets/logobyname.svg";
 import close from "../../assets/close.png";
 import menubar from "../../assets/menu-bar.png";
+import videoIntro from "../../assets/profile_Intro.mp4";
+
+
 
 const Header = (props) => {
   const [navbar, setNavbar] = useState(false);
@@ -29,6 +32,7 @@ const Header = (props) => {
           <div>
             <div id="header" className={navbar ? "sticky" : ""}>
               <div className="desktopHeader">
+                  {/* <video src={videoIntro} width="250" height="100" loop={true} controls={false} autoPlay={true}/> */}
                 <div>
                   <a href="/" className="logo">
                     <Logo className="headerLogo" />

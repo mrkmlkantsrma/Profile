@@ -21,11 +21,13 @@ const HomePage = () => {
         <About />
         <div
           style={{
-            backgroundImage: `url(${background})`,
+            // backgroundImage: `url(${background})`,
             backgroundRepeat: "repeat-y"
           }}
         >
-          {/* <Projects /> */}
+          <hr />
+          <Projects />
+          <hr />
           {/* <Testimonial /> */}
           <Contact />
         </div>

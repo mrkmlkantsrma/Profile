@@ -46,7 +46,7 @@ const Contact = () => {
         <span id="whatsapp-hover"> <FontAwesomeIcon icon={faWhatsapp} size="2x" /></span>
       </a>
 
-              {/* <a class="btn button phone" href="https://wa.me/917807240936" target="_blank" rel="noopener noreferrer" >
+              {/* <a className="btn button phone" href="https://wa.me/917807240936" target="_blank" rel="noopener noreferrer" >
               <FontAwesomeIcon icon={faWhatsapp} size="2x" />Whatsapp via Mobile</a> */}
             
             </div>
