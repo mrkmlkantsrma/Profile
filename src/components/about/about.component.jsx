@@ -26,7 +26,7 @@ const About = () => {
         </p>
         <p>
           The scope of my work is mostly includes Ecommerce, Content Based websites.
-           I'm mostly worked with PHP, Codeigniter, Wordpress , Ajax and then move to React, firebase.
+           I'm mostly worked with PHP, Codeigniter, Wordpress, Ajax and then move to React, Laravel, Vue and firebase.
            On Frontend mywork in html css js, CSS/JS annimations, jquery.
           Some of ther works based on web development, REST APIs, MySql.
         </p>

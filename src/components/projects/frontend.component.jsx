@@ -36,14 +36,14 @@ const Frontend = () => {
           <div className="gridlayout2">
             <button onClick={() => setModal1(!modal1)}>&lt; Video /&gt;</button>
             <a
-              href="https://github.com/MaverickCER/VSPortfolio"
+              href="https://github.com/mrkmlkantsrma"
               target="_blank"
               rel="noopener noreferrer"
             >
               &lt; Live Site /&gt;
             </a>
             <a
-              href="https://github.com/MaverickCER/VSPortfolio"
+              href="https://github.com/mrkmlkantsrma"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -91,13 +91,13 @@ const Frontend = () => {
           <div className="gridlayout2">
             <button onClick={() => setModal2(!modal2)}>&lt; Video /&gt;</button>
             <a
-              href="https://github.com/MaverickCER/CalloutsEvolved"
+              href="https://github.com/mrkmlkantsrma"
               rel="noopener noreferrer"
             >
               &lt; Live Site /&gt;
             </a>
             <a
-              href="https://github.com/MaverickCER/CalloutsEvolved"
+              href="https://github.com/mrkmlkantsrma"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -153,13 +153,13 @@ const Frontend = () => {
           <div className="gridlayout2">
             <button onClick={() => setModal3(!modal3)}>&lt; Video /&gt;</button>
             <a
-              href="https://github.com/MaverickCER/LangSynth"
+              href="https://github.com/mrkmlkantsrma"
               rel="noopener noreferrer"
             >
               &lt; Live Site /&gt;
             </a>
             <a
-              href="https://github.com/MaverickCER/LangSynth"
+              href="https://github.com/mrkmlkantsrma"
               target="_blank"
               rel="noopener noreferrer"
             >

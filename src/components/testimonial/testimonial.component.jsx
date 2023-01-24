@@ -12,19 +12,19 @@ const Testimonial = () => {
       </p>
       <div className="gridlayout1">
         <div>
-          <img src={salon} alt="Mockup of Darling Salon Website" />
+          <img src={salon} alt="Salon Website" />
         </div>
         <div>
           <div>
             <img
               className="clientPicture"
               src={salonowner}
-              alt="Wendy Darling, the owner of Darling Salon"
+              alt="The owner of Salon"
             />
           </div>
           <h3>
             <a
-              href="https://codepen.io/maverickcer/pen/KKmPLxB"
+              href="https://github.com/mrkmlkantsrma"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -32,7 +32,7 @@ const Testimonial = () => {
             </a>
           </h3>
           <p>
-            Maverick is a talented developer with very good design skills which
+            Kamal is a talented developer with very good development skills which
             surprised me with super professional communication skills and a
             strong marketing sense that enables him to see the big picture of
             projects.

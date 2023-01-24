@@ -48,7 +48,7 @@ const Hero = () => {
             <h2><img src={HiImage} alt="Hiname" /><img src={NameImage} alt="Skytsunami" /><span className="wave">👋</span> </h2>         
             <h1>&lt; Web Developer /&gt;</h1>
             <p>
-            I build things for the web. I am seeking React, PHP, Javascript, and other
+            I build things for the web. I am seeking PHP, CodeIgniter, Laravel, Wordpress, Javascript, React, Vue and other
               web development opportunities.
             </p>
             <p>
@@ -62,7 +62,7 @@ const Hero = () => {
             </div>
             <div className="button" id="button-5">
               <div id="translate"></div>
-                <a href="#">Check Resume</a>
+                <a href="https://www.linkedin.com/in/kamal-kant-sharma-6a4907162/">Check Resume</a>
             </div>
           </div>
           
