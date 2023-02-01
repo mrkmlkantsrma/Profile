@@ -10,6 +10,7 @@ import { ReactComponent as Youtube } from "../../assets/youtube.svg";
 import { ReactComponent as Php } from "../../assets/phpwhite.svg";
 import { ReactComponent as Codeigniter } from "../../assets/codeigniter.svg";
 import { ReactComponent as Wordpress } from "../../assets/wordpress.svg";
+import { ReactComponent as Reacti } from "../../assets/reactwhite.svg";
 
 const Backend = () => {
   const [modal1, setModal1] = useState(false);
@@ -72,9 +73,9 @@ const Backend = () => {
         </div>
         <div>
           <div>
-            <Wordpress />
+            <Reacti />
           </div>
-          <h3>Project</h3>
+          <h3>Portfolio</h3>
           <p>
           I’m passionate about technology because its about building better tools. Tools by definition help you do work. And the work that we’re doing is ultimately about people.
           </p>
@@ -87,7 +88,7 @@ const Backend = () => {
             <h4>&lt; Code /&gt;</h4>
           </a>
           <a
-              href="https://github.com/mrkmlkantsrma"
+              href="https://mrkmlkantsrma.github.io/Profile/"
               target="_blank"
               rel="noopener noreferrer"
             >

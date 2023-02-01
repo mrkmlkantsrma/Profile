@@ -425,6 +425,9 @@ hr.aboutHr {
   width: 2rem;
   height: auto;
 }
+.skillemblem:hover{
+  border: 2px solid #00bfbf;
+}
 
 .gridlayout1,
 .gridlayout3 {
@@ -2047,24 +2050,28 @@ a.social:hover {
 }
 
 a#Linkedin:hover img {
-  width: 15px;
+  width: 24px;
   opacity: 1;
-  transform: translateX(50px);
+  -webkit-transform: translateX(50px);
+  transform: rotate(10deg) translateX(48px) translateY(-9px);
 }
 a#Github:hover img {
-  width: 15px;
+  width: 24px;
   opacity: 1;
-  transform: translateX(50px);
+  -webkit-transform: translateX(50px);
+  transform: rotate(10deg) translateX(48px) translateY(-9px);
 }
 a#twitter:hover img {
-  width: 15px;
+  width: 24px;
   opacity: 1;
-  transform: translateX(50px);
+  -webkit-transform: translateX(50px);
+  transform: rotate(10deg) translateX(48px) translateY(-9px);
 }
 a#youtube:hover img {
-  width: 15px;
+  width: 24px;
   opacity: 1;
-  transform: translateX(50px);
+  -webkit-transform: translateX(50px);
+  transform: rotate(10deg) translateX(48px) translateY(-9px);
 
 }
 
